@@ -1,0 +1,55 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+.box{
+    text-align: center;
+    padding: 40px 30px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+.name, .location, .post{
+    color: white;
+}
+.box img{
+    width: 30%;
+    border-radius: 100px;
+}
+.name{
+    font-size: 25px;
+    font-weight: 400px;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    margin: 4px
+}
+.post{
+    font-size: 14px;
+    margin: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.box button{
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(0, 0%,20%);
+    color: white;
+    font-weight: 800;
+}
+.box button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    cursor: pointer;
+}
