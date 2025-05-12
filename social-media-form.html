@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOCIAL MEDIA PROFILE FORM</title>
+
+    <style>
+        *, *::before, *::after{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(0, 0%, 8%);
+        }
+        .form-box{
+            text-align: center;
+            padding: 30px 35px;
+            background-color: hsl(0, 0%, 12%);
+            border-radius: 10px;
+            width: auto;
+        }
+        .page-title{
+            font-size: 25px;
+            text-decoration: underline;
+            color: hsl(75, 94%, 57%)
+        }
+        form{
+            border: 2px white dotted;
+            margin-top: 20px;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 10px;
+            width: auto;
+        }
+        label{
+            font-size: 18px;
+            color: white;
+            font-weight: bolder;
+            margin: 5px;
+        }
+        input{
+            height: auto;
+            width: 100%;
+            font-size: 15px;
+            border-radius: 5px;
+            border: 1px solid hsl(75, 94%, 57%);
+            padding: 2px;
+            background-color: transparent;
+            color: white;
+        }
+        .submit{
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: hsl(0, 0%, 8%);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h4 class="page-title">SOCIAL MEDIA PROFILE FORM</h4>
+        <form>
+            <label>Pick a Profile Picture</label><br>
+            <input type="file" required><br><br>
+
+            <label class="name-label">Name</label><br>
+            <input type="name" placeholder="Enter Your Full Name" class="name-input" required><br><br>
+
+            <label class="title-label">Job Title</label><br>
+            <input type="text number" placeholder="Your Job Title" class="title-input" required><br><br>
+
+            <label class="portfolio-label">Portfolio</label><br>
+            <input type="text" placeholder="Enter Your Portfolio link" class="portfolio-input" required><br><br>
+
+            <label class="github-label">Github Profile</label><br>
+            <input type="text" placeholder="Enter Your Github Profile Link" class="github-input" required><br><br>
+
+            <label class="linkedin-label">LinkedIn</label><br>
+            <input type="text" placeholder="Enter Your LinkedIn link" class="linkedin-input" required><br><br>
+
+            <label class="twitter-label">Twitter</label><br>
+            <input type="text" placeholder="Enter Your Twitter(X) Profile Link" class="twitter-input" required><br><br>
+
+            <label class="instagram-label">Instagram</label><br>
+            <input type="text" placeholder="Enter Your Instagram Profile Link" class="instagram-input" required><br><br>
+
+            <input type="submit" class="submit" required>
+        </form>
+    </div>
+</body>
+</html>
